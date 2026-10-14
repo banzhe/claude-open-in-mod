@@ -1,7 +1,7 @@
 {
   "name": "open-in-vscode",
   "version": "0.1.0",
-  "author": { "name": "user" },
+  "author": { "name": "banzhe" },
   "description": "Adds an \"Open in VS Code\" button above the prompt that opens the session's workspace in VS Code.",
   "userConfig": {
     "command": {
