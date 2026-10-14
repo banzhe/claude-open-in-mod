@@ -1,0 +1,6 @@
+{
+  "name": "claude-open-in-mod",
+  "description": "Open the Claude Code workspace in VS Code.",
+  "owner": { "name": "user" },
+  "plugins": [{ "name": "open-in-vscode", "source": "./" }]
+}

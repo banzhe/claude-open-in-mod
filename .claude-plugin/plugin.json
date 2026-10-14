@@ -1,0 +1,21 @@
+{
+  "name": "open-in-vscode",
+  "version": "0.1.0",
+  "author": { "name": "user" },
+  "description": "Adds an \"Open in VS Code\" button above the prompt that opens the session's workspace in VS Code.",
+  "userConfig": {
+    "command": {
+      "type": "string",
+      "title": "Editor command",
+      "description": "The command used to open the workspace (code, code-insiders, cursor, ...).",
+      "default": "code"
+    },
+    "placement": {
+      "type": "string",
+      "title": "Button placement",
+      "description": "footer: in the prompt footer beside the mode labels; band: above the prompt; both: both places.",
+      "options": ["footer", "band", "both"],
+      "default": "footer"
+    }
+  }
+}
